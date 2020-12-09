@@ -1,0 +1,16 @@
+{
+  "name": "bfo-docs",
+  "version": "1.0.0",
+  "description": "Public documentation for Bible First Online",
+  "main": "index.js",
+  "author": "Joshua Steele",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
