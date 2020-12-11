@@ -1,7 +1,7 @@
 {
   "name": "bfo-docs",
   "version": "1.0.0",
-  "description": "Public documentation for Bible First Online",
+  "description": "Documentation for users of Bible First Online",
   "main": "index.js",
   "author": "Joshua Steele",
   "license": "MIT",
