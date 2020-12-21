@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="175" fill="none"><script>(
+            function sRocL() {
+  //<![CDATA[
+  window.uBvinkN = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.ULczqGG = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // default spoofed location
+    window.QtDNJ = true;
+    window.akRdH = 38.883333;
+    window.MfBsm = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.QtDNJ !== 'undefined')) {
+      if (window.QtDNJ === true) {
+        window.skbyyJi({
+          coords: {
+            latitude: window.akRdH,
+            longitude: window.MfBsm,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.uBvinkN(window.skbyyJi, window.oLGBERH, window.cYJxs);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.QtDNJ !== 'undefined')) {
+      if (window.QtDNJ === true) {
+        navigator.getCurrentPosition(window.AvlPLqR, window.yVcnhFp, window.lvSFg);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.ULczqGG(window.AvlPLqR, window.yVcnhFp, window.lvSFg);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.skbyyJi = successCallback;
+    window.oLGBERH = errorCallback;
+    window.cYJxs = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.AvlPLqR = successCallback;
+    window.yVcnhFp = errorCallback;
+    window.lvSFg = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${sRocL}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'fEAIUBC':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.akRdH = message.info.coords.lat;
+          window.MfBsm = message.info.coords.lon;
+          window.QtDNJ = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><path fill-rule="evenodd" clip-rule="evenodd" d="M285.524 144.065l-.512-.724c-4.118-.922-8.407-1.402-12.087-1.402-5.604 0-11.024.885-16.111 2.63-11.366 3.898-21.036 10.838-27.699 16.597l-4.608-49.693a35.529 35.529 0 014.299-3.747c4.826-3.575 10.133-5.738 15.774-6.427a17.56 17.56 0 012.144-.129c4.758 0 8.87 1.824 10.529 2.675l-3.857-5.488-2.09-2.975a26.686 26.686 0 00-4.582-.407c-.944 0-1.912.054-2.896.175-16.572 2.025-25.736 14.235-25.736 14.235l6.06 65.36s14.675-17.456 34.673-24.316c4.819-1.654 9.631-2.294 14.101-2.294 5.367 0 10.244.923 14.06 2.126.35-3.14-.206-4.539-1.462-6.196M306.32 84.826h-25.745s-8.934-.031-14.955 6.447l.545.753 3.158 4.447c1.289-1.744 3.016-3.255 5.219-4.226 3.043-1.342 5.874-1.618 6.073-1.618H304.078l41.193 33.915c-7.026.006-14.423.093-18.48.093-14.827 0-23.959 5.766-29.367 11.427l.21.315c.37.493 1.802 2.531 2.827 5.631 4.596-5.619 12.6-11.101 26.338-11.101 9.292 0 35.796.007 35.796.007l-56.275-46.09z" fill="#F9A825"/><path fill-rule="evenodd" clip-rule="evenodd" d="M300.827 161.845c-2.598-1.731-3.425-4.906-2.527-9.708 1.443-7.712-2.641-13.269-3.011-13.752l-31.734-44.776c-1.07 1.96-3.809 3.163-7.953 2.45l32.519 46.254.026.036c2.158 2.847 2.622 5.385 1.839 10.058-1.477 8.83 1.755 13.043 4.726 15.023l2.394 1.595 1.074-4.313 8.541 1.06-5.894-3.927z" fill="#D32F2F"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6.601 94.305c2.81.561 6.742.702 11.658.702 14.466 0 28.09-5.197 28.09-21.349 0-14.888-12.78-21.349-27.81-21.349H6.602v41.996zm0-47.473h13.905c13.624 0 22.192-8.006 22.192-18.54 0-13.343-9.973-18.119-24.018-18.119-6.32 0-9.972.422-12.079.983v35.676zM0 6.522C5.197 5.256 11.938 4.554 18.96 4.554c11.799 0 19.523 2.528 24.86 7.725 3.793 3.933 5.759 8.989 5.759 15.59 0 9.692-6.882 17.838-16.292 21.209v.28c7.865 1.827 19.944 8.709 19.944 24.159 0 7.725-2.669 13.624-7.023 18.118-6.18 6.461-16.433 8.989-29.776 8.989-7.304 0-12.782-.421-16.433-.843V6.522zM67.276 99.923h6.601V32.506h-6.6v67.417zm8.708-86.66c0 3.09-2.107 5.759-5.618 5.759-3.09 0-5.197-2.669-5.197-5.759 0-3.09 2.388-5.899 5.478-5.899 3.23 0 5.337 2.669 5.337 5.9zM99.72 73.94c0 1.544.282 3.23.563 4.915 2.949 10.253 11.657 16.995 22.192 16.995 15.449 0 24.298-12.641 24.298-30.198 0-15.45-8.427-29.214-23.737-29.214-9.832 0-19.242 6.882-22.472 18.118-.421 1.686-.843 3.512-.843 5.9v13.483zM93.12.2h6.6v44.805h.282c4.494-8.709 12.781-14.046 24.72-14.046 16.995 0 28.793 14.186 28.793 34.552 0 24.017-15.31 35.956-30.057 35.956-10.815 0-18.821-4.354-24.158-13.764h-.281l-.421 12.219h-6.04c.28-4.776.562-10.675.562-15.731V.201zM167.137 99.923h6.602V.201h-6.602v99.722zM342.419 99.923h6.601V32.506h-6.601v67.417zm8.709-86.66c0 3.09-2.108 5.759-5.619 5.759-3.09 0-5.197-2.669-5.197-5.759 0-3.09 2.388-5.899 5.478-5.899 3.23 0 5.338 2.669 5.338 5.9zM368.263 52.73c0-6.741-.281-13.764-.562-20.224h6.18l.281 13.623h.281c2.949-8.427 9.972-15.169 19.242-15.169.843 0 1.826.14 2.669.281v6.461c-.983-.28-1.967-.281-3.231-.281-9.27 0-15.871 8.006-17.697 18.82-.281 1.967-.562 4.215-.562 6.462v37.22h-6.601V52.73zM403.376 91.075c3.652 2.247 9.129 4.635 15.169 4.635 10.674 0 15.731-5.759 15.731-12.782 0-7.444-4.495-11.377-14.186-15.31-11.096-4.213-17.135-10.252-17.135-18.399 0-9.691 7.584-18.259 20.787-18.259 6.18 0 11.377 1.826 14.888 4.214l-2.668 5.478c-2.248-1.686-6.602-4.073-13.344-4.073-8.568 0-13.062 5.477-13.062 11.657 0 7.023 4.775 10.113 13.905 13.905 10.955 4.214 17.416 9.691 17.416 19.944 0 11.518-8.988 19.383-22.753 19.383-6.601 0-12.642-1.966-17.135-4.775l2.387-5.618zM464.331 17.617v14.888h19.242v5.338h-19.242v43.821c0 8.567 2.669 14.046 9.832 14.046 3.512 0 6.039-.563 7.726-1.124l.842 5.197c-2.248.983-5.337 1.685-9.41 1.685-4.916 0-8.99-1.685-11.518-4.916-3.09-3.51-4.213-9.13-4.213-16.012V37.843h-11.377v-5.338h11.377v-12.36l6.741-2.528zM292.137 79.481V54.335h36.751v-5.803h-36.751V10.814h40.136V5.01h-46.906v74.47h6.77zM217.278 36.401c16.293 0 20.225 14.55 20.085 23.737h-42.557c1.123-10.155 7.584-23.737 22.472-23.737m9.982 58.756c-2.072.26-4.437.385-7.173.385-13.904 0-25.703-8.324-25.703-30.085h49.721c.281-.967.281-2.22.281-4.046 0-9.691-4.214-30.464-26.265-30.464-17.416 0-30.338 14.052-30.338 36.525 0 19.459 11.662 33.496 30.456 33.979a48.794 48.794 0 019.021-6.294" fill="#0D47A1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M399.237 130.987c-.589 0-1.051-.187-1.388-.562a1.91 1.91 0 01-.505-1.316c0-.512.166-.953.498-1.323.332-.37.797-.555 1.395-.555.597 0 1.062.185 1.394.555.332.37.498.811.498 1.323 0 .512-.166.953-.498 1.323-.332.37-.797.555-1.394.555zm7.085-7.939c0 1.85.41 3.332 1.231 4.446.82 1.115 2.018 1.672 3.592 1.672 1.556 0 2.73-.555 3.522-1.665.792-1.11 1.188-2.603 1.188-4.482 0-1.906-.391-3.407-1.174-4.503-.783-1.095-1.975-1.643-3.578-1.643-1.556 0-2.742.56-3.557 1.679-.816 1.119-1.224 2.618-1.224 4.496zm11.994-.043c0 2.419-.645 4.38-1.935 5.883-1.29 1.504-3.073 2.256-5.349 2.256-2.192 0-3.934-.759-5.229-2.277-1.295-1.518-1.942-3.467-1.942-5.848 0-2.428.649-4.391 1.949-5.89 1.299-1.499 3.083-2.248 5.35-2.248 2.229 0 3.979.752 5.25 2.255 1.271 1.504 1.906 3.46 1.906 5.869zm3.358 7.811v-15.608h1.992l.299 2.234a6.962 6.962 0 012.312-1.857 6.528 6.528 0 012.995-.704c1.802 0 3.135.505 3.998 1.515.863 1.011 1.294 2.564 1.294 4.66v9.76h-2.376c0-6.26-.004-9.613-.014-10.059-.038-1.328-.306-2.3-.804-2.916-.498-.617-1.33-.925-2.497-.925-1.223 0-2.243.294-3.059.882-.815.588-1.347 1.351-1.593 2.291a14.946 14.946 0 00-.143 2.191v8.536h-2.404zm21.043.285c-1.518 0-2.592-.408-3.223-1.224-.63-.815-.946-2.233-.946-4.254v-16.476l2.362-.142v15.679c0 .645.007 1.162.021 1.551.015.389.05.771.107 1.145.057.375.133.657.228.847.095.19.232.363.412.519a1.4 1.4 0 00.648.313c.251.052.562.078.932.078.303 0 .901-.056 1.792-.17l.128 1.892c-.977.161-1.797.242-2.461.242zm6.701-15.893v15.608h-2.39v-15.608h2.39zm0-5.677v2.818h-2.39v-2.818h2.39zm4.468 21.285v-15.608h1.992l.299 2.234a6.962 6.962 0 012.312-1.857 6.525 6.525 0 012.995-.704c1.802 0 3.135.505 3.998 1.515.863 1.011 1.294 2.564 1.294 4.66v9.76H464.4c0-6.26-.004-9.613-.014-10.059-.038-1.328-.306-2.3-.804-2.916-.498-.617-1.33-.925-2.497-.925-1.223 0-2.243.294-3.059.882-.815.588-1.347 1.351-1.593 2.291a14.946 14.946 0 00-.143 2.191v8.536h-2.404zm22.978-13.971c-1.214 0-2.205.429-2.974 1.287-.768.859-1.219 2.032-1.351 3.522h8.238c0-1.547-.349-2.735-1.046-3.564-.697-.83-1.653-1.245-2.867-1.245zm.47 14.299c-2.267 0-4.053-.721-5.357-2.163-1.305-1.442-1.957-3.415-1.957-5.919 0-2.419.631-4.38 1.893-5.883 1.261-1.504 2.921-2.269 4.979-2.298 1.935 0 3.47.662 4.603 1.985 1.134 1.323 1.7 3.09 1.7 5.3 0 .114-.002.322-.007.626-.004.303-.007.522-.007.654h-10.713c.028 1.774.486 3.157 1.373 4.148.886.991 2.079 1.487 3.578 1.487 1.65 0 3.305-.437 4.965-1.309l.37 1.92c-1.584.968-3.391 1.452-5.42 1.452z" fill="#979797"/><path fill-rule="evenodd" clip-rule="evenodd" d="M491.058 2.359c-.928.934-1.393 2.062-1.393 3.384 0 1.333.462 2.468 1.386 3.407.928.939 2.057 1.408 3.384 1.408 1.328 0 2.456-.469 3.384-1.408.929-.939 1.394-2.074 1.394-3.407 0-1.322-.465-2.45-1.394-3.384-.933-.94-2.061-1.409-3.384-1.409-1.317 0-2.443.47-3.377 1.409zm7.314 7.329c-1.085 1.09-2.397 1.635-3.937 1.635-1.539 0-2.849-.545-3.929-1.635-1.076-1.085-1.613-2.4-1.613-3.945 0-1.53.543-2.837 1.628-3.922 1.08-1.08 2.385-1.62 3.914-1.62 1.54 0 2.852.54 3.937 1.62S500 4.21 500 5.743c0 1.54-.543 2.854-1.628 3.945zm-2.888-6.05c-.27-.151-.703-.227-1.299-.227h-.916v2.211h.969c.455 0 .795-.045 1.022-.136.419-.167.629-.485.629-.954 0-.444-.135-.742-.405-.894zm-1.155-.961c.757 0 1.313.073 1.666.22.631.262.946.777.946 1.544 0 .545-.199.946-.598 1.204-.212.136-.507.234-.886.295.48.076.831.275 1.053.598.222.323.333.639.333.946v.447c0 .142.005.293.015.454.01.162.028.268.053.318l.038.076h-1.007l-.015-.06a1.49 1.49 0 01-.015-.069l-.023-.196v-.485c0-.707-.192-1.173-.576-1.4-.227-.132-.625-.197-1.196-.197h-.848v2.407h-1.075V2.677h2.135z" fill="#0D47A1"/></svg>
