@@ -40,5 +40,6 @@ module.exports = {
     },
     editLinks: true,
     lastUpdated: true,
+    smoothScroll: true,
   },
 };
