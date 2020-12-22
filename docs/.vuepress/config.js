@@ -38,5 +38,6 @@ module.exports = {
         ['/support/', 'Support'],
       ],
     },
+    editLinks: true,
   },
 };
