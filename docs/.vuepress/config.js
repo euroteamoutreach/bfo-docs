@@ -9,5 +9,10 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       { text: 'biblefirst.online', link: 'https://biblefirst.online' },
     ],
+    sidebar: [
+      '/',
+      ['/guide/', 'Guide'],
+      ['/faq/', 'Frequently Asked Questions'],
+    ],
   },
 };
