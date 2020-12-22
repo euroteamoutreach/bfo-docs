@@ -3,6 +3,8 @@ module.exports = {
   description: 'Documentation for users of Bible First Online',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/bf-favicon.png' }]],
   themeConfig: {
+    repo: 'euroteamoutreach/bfo-docs',
+    docsDir: 'docs',
     logo: '/bfo-logo-mini.svg',
     nav: [
       { text: 'Home', link: '/' },
