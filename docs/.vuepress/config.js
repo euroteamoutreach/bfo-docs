@@ -7,12 +7,34 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
+      { text: 'Students', link: '/students/' },
+      { text: 'Coaches', link: '/coaches/' },
       { text: 'biblefirst.online', link: 'https://biblefirst.online' },
     ],
-    sidebar: [
-      '/',
-      ['/guide/', 'Guide'],
-      ['/faq/', 'Frequently Asked Questions'],
-    ],
+    sidebar: {
+      '/students/': [
+        '',
+        'completing-a-quiz',
+        'contacting-your-coach',
+        'editing-your-profile',
+        'signing-up',
+        'working-through-a-lesson',
+      ],
+
+      '/coaches/': [
+        '',
+        'adding-students',
+        'deleting-students',
+        'grading-quizzes',
+        'student-profile-page',
+      ],
+
+      '/': [
+        '',
+        ['/guide/', 'Guide'],
+        ['/faq/', 'Frequently Asked Questions'],
+        ['/support/', 'Support'],
+      ],
+    },
   },
 };
