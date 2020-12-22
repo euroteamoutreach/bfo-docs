@@ -39,5 +39,6 @@ module.exports = {
       ],
     },
     editLinks: true,
+    lastUpdated: true,
   },
 };
