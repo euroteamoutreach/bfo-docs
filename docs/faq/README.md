@@ -1,4 +1,4 @@
-# FAQ
+# Frequently Asked Questions
 
 This is the FAQ page. Dolor delectus cumque accusamus quod excepturi maiores? Sed dolore repudiandae odit rem exercitationem Facere enim dolores placeat impedit soluta non. Laudantium dignissimos soluta possimus optio similique sunt? Nihil accusamus id.
 
