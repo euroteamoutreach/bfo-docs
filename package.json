@@ -8,7 +8,9 @@
   "private": true,
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "lint": "eslint docs",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
