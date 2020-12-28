@@ -1,5 +1,3 @@
 # Contacting Your Coach
 
-You have a coach. You can contact them. Here’s how...
-
-Amet officia voluptatum sunt perferendis temporibus? Repellendus provident odit quas pariatur non aliquam, asperiores. Quod nostrum voluptatibus ipsa dolorum vitae. Ducimus fuga maiores modi quibusdam accusantium Explicabo quia pariatur natus!
+Want to get in touch with your coach? Just click the envelope icon at the top right of your screen. It really is that easy!
