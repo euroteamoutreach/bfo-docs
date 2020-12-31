@@ -19,7 +19,7 @@ If someone can't scan the QR code, tap the key icon located below the QR code an
 
 ![circled-key](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/circled-key_te1svi.png)
 
-This will display a link to the signup page as well as your signup key. If the prospective student doesn't want to sign up on the spot, they can take a picture of your screen, and sign up later.
+This will display a link to the signup page as well as your [signup key.](https://docs.biblefirst.online/coaches/coach-faq.html#what-is-a-signup-key) If the prospective student doesn't want to sign up on the spot, they can take a picture of your screen, and sign up later.
 
 ![site-and-signup-key](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422021/bfo/bfo-docs/adding-students/site-and-signup-key_rnhkvz.png)
 
@@ -59,18 +59,3 @@ When designing materials to advertise BFO (tracts, business cards, etc.), be sur
 ![qr-codes](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/qr-codes_yhn5vb.png)
 
 *Fun fact: a QR code is like a bar code. It's basically text encoded in a format that can be read by a smartphone.*
-
-## What is a Signup Key?
-
-So what exactly is a signup key? A signup key is a short code that is unique to your BFO account. When a person signs up for BFO, the signup key is what connects the new student with the account of the coach that invited them. That said, if you use your signup URLs, you don't have to worry about signup keys, because the signup key is built into the URL.
-
-*An example signup key:*
-```
-K7YN39
-```
-
-*The corresponding signup URLs (notice the signup keys):*
-```
-https://bfst.co/en/K7YN39
-https://biblefirst.online/en/K7YN39/sign_up
-```

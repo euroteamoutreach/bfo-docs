@@ -28,6 +28,7 @@ module.exports = {
         'deleting-students',
         'grading-quizzes',
         'student-profile-page',
+        'coach-faq',
       ],
 
       '/': [
