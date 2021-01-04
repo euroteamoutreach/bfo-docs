@@ -1,14 +1,7 @@
 # Frequently Asked Questions
 
-This is the FAQ page. Dolor delectus cumque accusamus quod excepturi maiores? Sed dolore repudiandae odit rem exercitationem Facere enim dolores placeat impedit soluta non. Laudantium dignissimos soluta possimus optio similique sunt? Nihil accusamus id.
+This is the general FAQ page. To see FAQs specifically related to [students](https://docs.biblefirst.online/coaches/student-faq.html) or [coaches](https://docs.biblefirst.online/coaches/coach-faq.html), click the appropriate link.
 
-## What's the best thing about Switzerland?
-I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+## Are the Bible First lessons available in print?
 
-## What do you call someone with no body and no nose?
-Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
-
-## Why do you never see elephants hiding in trees?
-Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
-
-
+They sure are! [Click here](https://www.getbiblefirst.com/purchase/) to get yourself a copy.
