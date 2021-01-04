@@ -24,6 +24,7 @@ module.exports = {
 
       '/coaches/': [
         '',
+        'signing-up',
         'adding-students',
         'deleting-students',
         'grading-quizzes',
