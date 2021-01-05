@@ -12,5 +12,5 @@ features:
   details: Because everything is better when it's on the internet! Well, almost everything...
 - title: Based on Stories
   details: God didn't leave us a dry collection of doctrines, he left us a book of stories. So let's get started!
-footer: Copyright © 2020 Euro Team Outreach, Inc.
+footer: Copyright © 2021 Euro Team Outreach, Inc.
 ---
