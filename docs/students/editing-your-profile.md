@@ -1,5 +1,7 @@
 # Editing Your Profile
 
-You know, the usual. Click the little avatar guy, then click profile, then change stuff. And you have to know your password, which you’ve probably already forgotten, which means you’re not changing anything fast.
+You know, the usual. Click the little avatar guy, then click profile, then change stuff.
 
-Adipisicing voluptatum consequatur necessitatibus vitae corporis Voluptatum magnam maxime officia in autem? Deleniti eligendi delectus autem eum quae Esse delectus voluptas molestias eos illo cum? Harum nihil at facere possimus.
+![avatar](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609321711/bfo/bfo-docs/avatar_xc71gu.png)
+
+And yes, we'll be asking for your password to make sure it's really you.

@@ -16,11 +16,10 @@ module.exports = {
     sidebar: {
       '/students/': [
         '',
-        'completing-a-quiz',
-        'contacting-your-coach',
-        'editing-your-profile',
         'signing-up',
         'working-through-a-lesson',
+        'contacting-your-coach',
+        'editing-your-profile',
       ],
 
       '/coaches/': [
