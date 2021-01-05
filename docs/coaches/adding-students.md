@@ -19,7 +19,7 @@ If someone can't scan the QR code, tap the key icon located below the QR code an
 
 ![circled-key](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/circled-key_te1svi.png)
 
-This will display a link to the signup page as well as your [signup key.](https://docs.biblefirst.online/coaches/coach-faq.html#what-is-a-signup-key) If the prospective student doesn't want to sign up on the spot, they can take a picture of your screen, and sign up later.
+This will display a link to the signup page as well as your [signup key.](/coaches/coach-faq.html#what-is-a-signup-key) If the prospective student doesn't want to sign up on the spot, they can take a picture of your screen, and sign up later.
 
 ![site-and-signup-key](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422021/bfo/bfo-docs/adding-students/site-and-signup-key_rnhkvz.png)
 
@@ -39,7 +39,7 @@ Now let's consider the situation where the prospective student is not standing r
 
 ![signup-urls](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422021/bfo/bfo-docs/adding-students/signup-urls_cbgonw.png)
 
-You can then send your signup URL to the prospective student via text, email, or Morse code. Also, consider sending them a link to our handy-dandy, [how-to-sign-up help page](https://docs.biblefirst.online/students/signing-up.html) for students:
+You can then send your signup URL to the prospective student via text, email, or Morse code. Also, consider sending them a link to our handy-dandy, [how-to-sign-up help page](/students/signing-up.html) for students:
 ```
 https://docs.biblefirst.online/students/signing-up.html
 ```
