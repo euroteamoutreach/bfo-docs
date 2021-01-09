@@ -20,14 +20,18 @@ module.exports = {
         'working-through-a-lesson',
         'contacting-your-coach',
         'editing-your-profile',
+        'student-faq',
       ],
 
       '/coaches/': [
         '',
+        'signing-up',
         'adding-students',
-        'deleting-students',
+        'messaging-a-student',
         'grading-quizzes',
         'student-profile-page',
+        'deleting-students',
+        'coach-faq',
       ],
 
       '/': [

@@ -1,14 +1,13 @@
 # Frequently Asked Questions
 
-This is the FAQ page. Dolor delectus cumque accusamus quod excepturi maiores? Sed dolore repudiandae odit rem exercitationem Facere enim dolores placeat impedit soluta non. Laudantium dignissimos soluta possimus optio similique sunt? Nihil accusamus id.
+This is the general FAQ page. To see FAQs specifically related to [students](/students/student-faq.html) or [coaches](/coaches/coach-faq.html), click the appropriate link.
 
-## What's the best thing about Switzerland?
-I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+## Are the Bible First lessons available in print?
 
-## What do you call someone with no body and no nose?
-Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+They sure are! [Click here](https://www.getbiblefirst.com/purchase/) to get yourself a copy.
 
-## Why do you never see elephants hiding in trees?
-Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+## What denomination do you belong to?
 
+While Bible First was written and published by [Euro Team Outreach](https://www.euroteamoutreach.org/) (ETO), it is important to note that most Bible First coaches are not officially affiliated with ETO, and come from a variety of denominational backgrounds.
 
+But getting back to the question, ETO is not affiliated with any denomination. If you really feel the need to put us in a box, take a look at our [statement of faith,](https://www.euroteamoutreach.org/doctrine/) and then feel free to put is in whatever box you'd like!

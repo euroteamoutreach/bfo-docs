@@ -13,7 +13,7 @@ If you've been given a signup key, [click here](https://biblefirst.online/sign_u
 ```
 K7YN39
 ```
-If you'd like to sign up for Bible First, but don't have a link or a signup key, [click here](mailto:hello@biblefirst.online?subject=Signup%20Key%20Request) to request a signup key.
+If you'd like to sign up for Bible First, but don't have a link or a signup key, email us at [support@biblefirst.online](mailto:support@biblefirst.online?subject=Signup%20Key%20Request) to request a signup key.
 
 ***
 
