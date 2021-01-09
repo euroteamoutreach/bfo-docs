@@ -27,9 +27,10 @@ module.exports = {
         '',
         'signing-up',
         'adding-students',
-        'deleting-students',
+        'messaging-a-student',
         'grading-quizzes',
         'student-profile-page',
+        'deleting-students',
         'coach-faq',
       ],
 

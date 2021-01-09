@@ -10,7 +10,7 @@ First off, let's assume the person that wants to sign up for Bible First is stan
 
 ### Smartphone Signup
 
-Tap the Invite Now button, which will bring up a QR code. If someone [scans that code,](https://www.hellotech.com/guide/for/how-to-scan-qr-code-iphone-android) it will take them to your signup page, where they can create an account.
+Tap the Invite Now button, which will bring up a QR code. If someone [scans that code,](/coaches/coach-faq.html#how-do-you-scan-a-qr-code) it will take them to your signup page, where they can create an account.
 
 ![invite-now](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/invite-now_nwjrh2.png)
 ![qr-code-overlay](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/qr-code-overlay_nprepi.png)
