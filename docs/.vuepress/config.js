@@ -30,7 +30,10 @@ module.exports = {
         'messaging-a-student',
         'grading-quizzes',
         'student-profile-page',
+        'reminders',
         'deleting-students',
+        'multiple-coaches',
+        'account-settings',
         'coach-faq',
       ],
 
