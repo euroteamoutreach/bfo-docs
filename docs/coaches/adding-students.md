@@ -50,7 +50,17 @@ Last, but not least, you can sign up a student yourself, providing they have giv
 
 ![add-student-page](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1609422020/bfo/bfo-docs/adding-students/add-student-page_meslma.png)
 
-Once you click "Add Student", the student will be sent a confirmation email. When they click the confirmation link in that email, they will be ready to go!
+Once you click the "Add Student" button, the student will be sent a confirmation email. When they click the confirmation link in that email, they will be ready to go!
+
+## Pending Students
+
+When a new student account is created, the student is sent a confirmation email. Until the student clicks the confirmation link in that email, they will show up in the [pending view.](https://biblefirst.online/en/coach/students/pending)
+
+![pending-view](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1612343706/bfo/bfo-docs/adding-students/pending-view_yvbjin.png)
+
+If you notice that someone has been sitting in Pending for a while, there are a few things you can do. If you added the student, make sure you entered their email correctly. You can try resending the confirmation email. And if you have another way to contact the student, you can verify the email address and have them check their spam folder.
+
+![resend-invitation](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1612343706/bfo/bfo-docs/adding-students/resend-invitation_hgo0hb.png)
 
 ## Printed Promotional Materials
 
