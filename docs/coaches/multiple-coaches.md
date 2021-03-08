@@ -18,6 +18,8 @@ Then, just fill in the form, select the appropriate access level for the coach, 
 
 ![add-new-coach](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1612367475/bfo/bfo-docs/multiple-coaches/add-new-coach_eesikj.png)
 
+NOTE: If the person you are wanting to add as a coach has been a student in the past, be sure to check out [this section](/coaches/signing-up.html#if-you-are-a-student) of the docs.
+
 ## Deleting Other Coaches
 
 To delete another coach, go to the [coaches view](https://biblefirst.online/en/coach/coaches) and click on the coach's name. If you are an admin coach, you'll see a Delete Coach button. But remember, with great power comes great responsibility!
