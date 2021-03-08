@@ -31,6 +31,7 @@ module.exports = {
         'grading-quizzes',
         'student-profile-page',
         'reminders',
+        'graduation',
         'deleting-students',
         'multiple-coaches',
         'account-settings',
