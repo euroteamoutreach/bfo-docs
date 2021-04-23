@@ -19,6 +19,10 @@ https://biblefirst.online/en/K7YN39/sign_up
 
 On iPhone, it should be pretty simple. Open the camera app, point it at the QR code, and it should recognize the code and ask if you want to go to the link. On Android, there are a few extra steps (as of this writing). See [this article](https://www.hellotech.com/guide/for/how-to-scan-qr-code-iphone-android) to learn more, or just Google it.
 
+## What's the difference between the admin and standard coaching accounts?
+
+Standard-level coaches can do everything an admin coach can do, except for deleting students and adding/deleting other coaches.
+
 ## Why Genesis, and not John or Romans?
 
 To be honest, we'd love to write a course about John and Romans, we just don't have the time! But getting back to the question, [watch this short video](https://www.getbiblefirst.com/training/videos/part-1/video-4/) for the answer.
