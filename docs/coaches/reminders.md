@@ -10,7 +10,7 @@ Once the student has been inactive for the requisite amount of time, the student
 
 Hopefully the reminder will do its job and get the student back on the bandwagon. But if not, after another 14 days, the first reminder will be canceled, and another will be sent. If there is still no activity from the student, a third and final reminder will be sent after another 14 days. If at any time the student becomes active, the "maximum three reminders" counter gets reset, and were they to go inactive again, there is the potential that they could be sent another three reminders.
 
-At any time, you can see a student's reminders by going to their profile and clicking on the tab with the bookmark. (If the student has never been sent a reminder, there won't be a reminders tab.)
+At any time, you can see a student's reminders by going to [their profile](/coaches/student-profile-page.html#finding-a-student-s-profile) and clicking on the tab with the bookmark. (If the student has never been sent a reminder, there won't be a reminders tab.)
 
 ![location-reminders-tab](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1618930237/bfo/bfo-docs/reminders/location-reminders-tab_ypgkwp.png)
 

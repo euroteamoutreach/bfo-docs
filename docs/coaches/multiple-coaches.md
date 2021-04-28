@@ -6,7 +6,7 @@ While Bible First Online can be a one-man show with only one coach, it can also 
 
 Every account has a coach designated as the account owner. This coach is responsible for billing, and by default is an admin coach, as opposed to a standard-level coach. (Standard-level coaches are unable to delete students or add/remove other coaches to/from the account.)
 
-By default, all new students are assigned to the account owner, but they can be reassigned at any time.
+By default, all new students that sign up themselves through the online signup form are assigned to the account owner, but they can be [reassigned at any time.](/coaches/student-profile-page.html#coach-assignment)
 
 ## Adding Other Coaches
 

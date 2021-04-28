@@ -28,6 +28,6 @@ In the print dialog, select "Save as PDF" in the destination drop-down menu, and
 
 ![save-as-pdf](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1615197729/bfo/bfo-docs/graduation/save-as-pdf_d6purg.png)
 
-Once you have the PDF saved to your computer, email it to the student. As a reminder, you can find the student's email on their profile page. (At this point, the [BFO messaging system](/coaches/messaging-a-student.html) doesn't support sending files, so sending the certificate via email is the simplest option.)
+Once you have the PDF saved to your computer, email it to the student. As a reminder, you can find the student's email on their [profile page.](/coaches/student-profile-page.html#finding-a-student-s-profile) (At this point, the [BFO messaging system](/coaches/messaging-a-student.html) doesn't support sending files, so sending the certificate via email is the simplest option.)
 
 ![email-on-profile](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1615197729/bfo/bfo-docs/graduation/email-on-profile_cjj3um.png)

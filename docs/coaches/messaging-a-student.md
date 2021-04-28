@@ -6,7 +6,7 @@ To message a student, just click the envelope icon in the top navigation bar, th
 
 NOTE: If there are multiple coaches in your BFO account, the only conversations that will show up in your messages view are with the students assigned to you, and conversations that you have joined (more on that [later](/coaches/messaging-a-student.html#managing-multiple-conversation-members)).
 
-You can jump directly into a conversation with a student by clicking the Message Student button on their profile.
+You can jump directly into a conversation with a student by clicking the Message Student button on [their profile.](/coaches/student-profile-page.html#finding-a-student-s-profile)
 
 ![message-button-profile](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1612351811/bfo/bfo-docs/messages/message-button-profile_p5uumo.png)
 

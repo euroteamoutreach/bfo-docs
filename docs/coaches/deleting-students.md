@@ -4,7 +4,7 @@ While a student can [delete their own account,](/students/editing-your-profile.h
 
 ## Standard-level Coaching Accounts
 
-If someone invited you to be a coach in their BFO account, it's possible that you have a [standard-level](/coaches/coach-faq.html#what-s-the-difference-between-the-admin-and-standard-coaching-accounts) coaching account, instead of an admin account, which means that you won't actually be able to delete a student. However, you can request that a student be deleted by one of the admin coaches. Just navigate to the student's profile and click on the settings tab.
+If someone invited you to be a coach in their BFO account, it's possible that you have a [standard-level](/coaches/coach-faq.html#what-s-the-difference-between-the-admin-and-standard-coaching-accounts) coaching account, instead of an admin account, which means that you won't actually be able to delete a student. However, you can request that a student be deleted by one of the admin coaches. Just navigate to the [student's profile](/coaches/student-profile-page.html#finding-a-student-s-profile) and click on the settings tab.
 
 ![student-settings-tab](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1619189481/bfo/bfo-docs/deleting-students/student-settings-tab_hn2yzq.png)
 

@@ -4,7 +4,7 @@ Once a student has completed their quiz, it will show up on your [dashboard](htt
 
 ![quiz-on-dashboard](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1610185383/bfo/bfo-docs/grading-quizzes/quiz-on-dashboard_krqg7p.png)
 
-Alternatively, you can start the grading process from the student's profile page.
+Alternatively, you can start the grading process from the student's [profile page.](/coaches/student-profile-page.html#finding-a-student-s-profile)
 
 ![quiz-on-profile](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1610185383/bfo/bfo-docs/grading-quizzes/quiz-on-profile_lmvzor.png)
 
@@ -20,6 +20,8 @@ Be sure to make use of the comment fields under each question to provide feedbac
 Once you finish grading the quiz, click the Grade Quiz button at the bottom of the page. The student will be notified via email that their quiz has been graded, and the next lesson will be unlocked for them to read.
 
 ![grade-button](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1610186072/bfo/bfo-docs/grading-quizzes/grade-button_osbfub.png)
+
+## Declining a Quiz
 
 You'll also notice the Decline Quiz button, right next to the Grade Quiz button. This is for those rare occasions when the student did a really poor job on the quiz, or perhaps just accidentally submitted their quiz before finishing it. Declining a quiz returns it to the student and allows them to edit their answers. They can then resubmit it for grading just like normal.
 
