@@ -90,7 +90,7 @@ Most students will sign up online, do everything online, you'll never have to to
 
 ![online-account](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1619615653/bfo/bfo-docs/student-profile-page/online-account_ul8s3f.png)
 
-If you have offline students, you might have a situation where a person enrolls in the course as an offline student, and then wants to become an [online student or a hybrid student.](/coaches/account-settings.html#inactivity-thresholds) This is where you would go to activate an online account for them.
+If you have offline students, you might have a situation where a person enrolls in the course as an offline student, and then wants to become an [online student or a hybrid student.](/coaches/coach-faq.html#what-s-the-difference-between-online-offline-and-hybrid-students) This is where you would go to activate an online account for them.
 
 Once you have activated an online account, this is where you would go to resend the email invitation to the student, if need be.
 
@@ -98,7 +98,7 @@ On the flip side, if you had an online student, and they wanted to go old-school
 
 #### Physical Delivery
 
-If you enable this setting, you are telling the system that you will be sending the student physical lessons in the mail. Enabling this setting also turns the student from an [online student to a hybrid student](/coaches/account-settings.html#inactivity-thresholds) in the eyes of the system, and it will prompt you to send those physical lessons to the student.
+If you enable this setting, you are telling the system that you will be sending the student physical lessons in the mail. Enabling this setting also turns the student from an [online student to a hybrid student](/coaches/coach-faq.html#what-s-the-difference-between-online-offline-and-hybrid-students) in the eyes of the system, and it will prompt you to send those physical lessons to the student.
 
 If a student is an offline student, this setting is enabled by default.
 
