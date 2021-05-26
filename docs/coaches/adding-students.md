@@ -62,6 +62,8 @@ If you notice that someone has been sitting in Pending for a while, there are a 
 
 ![resend-invitation](https://res.cloudinary.com/euro-team-outreach/image/upload/f_auto,q_auto:best/v1612343706/bfo/bfo-docs/adding-students/resend-invitation_hgo0hb.png)
 
+If there is a typo in the student's email address, the only thing you can do is to [delete](/coaches/deleting-students.html) the student's account, and start over. This is because only the student can edit their email address, but to do so, they must log in, but they can't log in because their account hasn't been confirmed, because their email is incorrect. 😵 Under normal circumstances, the student could [delete their own account,](/students/editing-your-profile.html#deleting-your-account) but in this case, they can't because, you guessed it, they can't log in.
+
 ## Printed Promotional Materials
 
 When designing materials to advertise BFO (tracts, business cards, etc.), be sure to include your QR code as well as your signup URL, as QR codes reduce the amount of typing a person has to do. (Your QR code will take a person to the same place as your signup URL.) Look for the little QR code icons next to the signup URLs.
